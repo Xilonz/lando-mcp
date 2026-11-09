@@ -1,4 +1,4 @@
-name: lando-mcp
+name: "@xilonz/lando-mcp"
 description: Model Context Protocol (MCP) server for Lando environments
 version: 1.0.0
 api: 3

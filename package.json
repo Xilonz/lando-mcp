@@ -1,24 +1,36 @@
 {
-  "name": "lando-mcp",
+  "name": "@xilonz/lando-mcp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Model Context Protocol (MCP) server for Lando. Dynamically exposes Lando lifecycle commands and project-specific tooling (wp, composer, npm, etc.) to AI coding assistants.",
   "main": "index.js",
   "bin": {
     "lando-mcp": "./bin/lando-mcp.js"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
+  "lando": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test-client.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": [
+    "lando",
+    "lando-plugin",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "llm",
+    "antigravity",
+    "claude",
+    "cursor",
+    "docker"
+  ],
+  "author": "Arjan Steenbergen <arjan@arjansteenbergen.nl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xilonz/lando-mcp.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2",
-    "js-yaml": "^5.5.0"
+    "js-yaml": "^5.5.0",
+    "zod": "^3.25.1"
   }
 }
