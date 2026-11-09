@@ -41,6 +41,10 @@ lando mcp --project /path/to/my-site
 - `lando_logs`: Fetch container logs with optional tail and service filtering.
 - `lando_poweroff`: Shut down all Lando containers and proxy engines globally.
 - `lando_config`: Retrieve Lando's effective runtime configuration.
+- `lando_init`: Scaffold a new Landofile (`.lando.yml`) with recipe, name, webroot, and source options.
+- `lando_recipes`: List available Lando recipes (e.g. `sowmedia-wordpress`, `wordpress`, `lamp`, `laravel`, etc.).
+- `lando_version`: Check installed Lando CLI version.
+- `lando_clear_cache`: Clear Lando's tasks, plugins, and recipe cache (`lando --clear`).
 
 ### 2. Execution Tools
 - `lando_exec`: Run arbitrary CLI commands inside a container or app context.
