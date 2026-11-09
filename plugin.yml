@@ -1,0 +1,6 @@
+name: lando-mcp
+description: Model Context Protocol (MCP) server for Lando environments
+version: 1.0.0
+api: 3
+tasks:
+  mcp: ./tasks/mcp.js
